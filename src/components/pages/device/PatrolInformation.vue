@@ -39,12 +39,12 @@
         </el-table-column>
         <el-table-column label="巡检人" prop="userName" width="150">
         </el-table-column>
-        <el-table-column label="设备巡检状态" prop="remark" width="150">
+        <el-table-column label="运行状态" prop="remark" width="150">
           <template slot-scope="scope">
             <span>{{ scope.row.inspection === 1 ? "异常" : "正常" }}</span>
           </template>
         </el-table-column>
-        <el-table-column label="巡检描述" prop="description" width="160">
+        <el-table-column label="巡检状态" prop="description" width="160">
         </el-table-column>
         <el-table-column label="巡检时间" prop="patrolTime" width="160">
         </el-table-column>
